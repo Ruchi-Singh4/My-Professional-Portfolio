@@ -42,7 +42,7 @@ export interface Project {
   icon: LucideIcon;
   title: string;
   kind: string;
-  body: string;
+  points: string[];
   stack: string[];
   hue: ProjectHue;
   repo?: string;

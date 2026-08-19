@@ -1,0 +1,67 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#0A1427"/>
+  <rect width="1200" height="70" fill="#071A2D"/>
+  <g transform="translate(28,18)">
+    <circle cx="18" cy="18" r="18" fill="#F74A5F"/>
+    <path d="M11 18C11 12.477 15.477 8 21 8H24C29.523 8 34 12.477 34 18V22C34 27.523 29.523 32 24 32H21C15.477 32 11 27.523 11 22V18Z" fill="#E9EFFD"/>
+    <path d="M15 14C15 11.791 16.791 10 19 10H25C27.209 10 29 11.791 29 14V18H15V14Z" fill="#F74A5F"/>
+    <path d="M15 22H29V24C29 26.209 27.209 28 25 28H19C16.791 28 15 26.209 15 24V22Z" fill="#F74A5F"/>
+  </g>
+  <text x="68" y="42" fill="#F5F8FF" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">RATNA</text>
+  <text x="182" y="42" fill="#F5F8FF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">HealthPlex</text>
+
+  <g fill="#E5ECFF" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600">
+    <text x="470" y="42">Features</text>
+    <text x="570" y="42">Advanced</text>
+    <text x="695" y="42">Infrastructure</text>
+    <text x="840" y="42">Management</text>
+    <text x="980" y="42">Differentiators</text>
+  </g>
+
+  <rect x="1055" y="18" width="118" height="36" rx="18" fill="#EC4E4E"/>
+  <text x="1114" y="41" text-anchor="middle" fill="#FFF" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Sign Up</text>
+
+  <rect x="0" y="70" width="1200" height="60" fill="#15C76C"/>
+  <text x="600" y="108" text-anchor="middle" fill="#0D2B2F" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Mission: Making Healthcare Accessible for Underserved Communities Worldwide</text>
+
+  <g opacity="0.25">
+    <circle cx="90" cy="260" r="12" fill="#7EC2FF"/>
+    <circle cx="350" cy="200" r="10" fill="#7EC2FF"/>
+    <circle cx="820" cy="240" r="12" fill="#7EC2FF"/>
+    <circle cx="1080" cy="180" r="10" fill="#7EC2FF"/>
+    <circle cx="1100" cy="520" r="12" fill="#7EC2FF"/>
+  </g>
+
+  <g opacity="0.2" stroke="#80C8FF" stroke-width="2">
+    <path d="M100 200C240 260 240 310 380 300"/>
+    <path d="M810 220C930 260 990 290 1090 250"/>
+    <path d="M100 520C260 480 310 580 440 550"/>
+    <path d="M760 560C840 520 920 520 1030 580"/>
+  </g>
+
+  <g>
+    <text x="600" y="235" text-anchor="middle" fill="#F4F8FF" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800">Smarter, Safer &amp; Scalable</text>
+    <text x="600" y="315" text-anchor="middle" fill="#F4F8FF" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800">Healthcare.</text>
+    <text x="600" y="385" text-anchor="middle" fill="#DDE8FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="500">A Unified AI-Powered Platform.</text>
+
+    <text x="600" y="440" text-anchor="middle" fill="#D4DCF2" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400">An integrated ecosystem combining telemedicine, EMR (Nurse/Physician), Lab, and</text>
+    <text x="600" y="470" text-anchor="middle" fill="#D4DCF2" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400">Pharmacy systems — built for low-bandwidth, off-grid access.</text>
+
+    <rect x="470" y="515" width="260" height="52" rx="26" fill="none" stroke="#E6EAFF" stroke-width="2"/>
+    <text x="600" y="549" text-anchor="middle" fill="#F4F8FF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Our Core Differentiators</text>
+  </g>
+
+  <g transform="translate(260,613)">
+    <rect x="0" y="0" width="180" height="44" rx="22" fill="#1B2949" fill-opacity="0.8"/>
+    <text x="90" y="28" text-anchor="middle" fill="#F4F8FF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Optimized for 2G/3G</text>
+
+    <rect x="220" y="0" width="180" height="44" rx="22" fill="#1B2949" fill-opacity="0.8"/>
+    <text x="310" y="28" text-anchor="middle" fill="#F4F8FF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Multilingual Voice AI</text>
+
+    <rect x="440" y="0" width="220" height="44" rx="22" fill="#1B2949" fill-opacity="0.8"/>
+    <text x="550" y="28" text-anchor="middle" fill="#F4F8FF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Feature Phone Compatible</text>
+
+    <rect x="700" y="0" width="220" height="44" rx="22" fill="#1B2949" fill-opacity="0.8"/>
+    <text x="810" y="28" text-anchor="middle" fill="#F4F8FF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">HIPAA &amp; DPDPA Compliant</text>
+  </g>
+</svg>

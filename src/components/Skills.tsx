@@ -45,7 +45,7 @@ export function Skills() {
           </div>
 
           <div className="time" data-rv>
-            {TIMELINE.map((entry, index) => (
+            {TIMELINE.map((entry) => (
               <div className="tl" key={entry.what}>
                 <span className="tl-when">{entry.when}</span>
                 <h3>{entry.what}</h3>
@@ -56,13 +56,6 @@ export function Skills() {
                   ))}
                 </ul>
 
-                {index === 0 ? (
-                  <div className="experience-cta">
-                    <a className="demo-btn" href="https://demos.ratnaglobaltech.com/" target="_blank" rel="noreferrer">
-                      Live Demo
-                    </a>
-                  </div>
-                ) : null}
               </div>
             ))}
 

@@ -1,49 +1,69 @@
-import { Layers, Leaf, Sparkles, Stethoscope } from "lucide-react";
+import { Layers, Sparkles, Stethoscope } from "lucide-react";
 import type { Project } from "@/types";
 
 export const PROJECTS: Project[] = [
   {
     icon: Stethoscope,
-    title: "Business Management Web Application",
-    kind: "Java / Spring Boot",
-    body: "Business workflow platform covering customer records, inventory, orders, role-based access, and admin operations.",
-    stack: ["Java", "Spring Boot", "Thymeleaf", "MySQL"],
-    hue: "a",
-    repo: "https://github.com/Ruchi-Singh4/Business-Management-System",
-    image:
-      "https://github.com/SuhasKamate/Business_Management_Project/assets/126138738/e8db8f17-72d6-42a0-b264-def0bf883bbf",
+    title: "Dr. Basu Eye Care HMS",
+    kind: "Healthcare management system",
+    points: [
+      "Comprehensive hospital management covering front office operations, patient appointments, billing and financial reports",
+      "Built with React on Vite and Spring Boot REST APIs backed by PostgreSQL with role-based access control",
+      "Real-time appointment tracking, patient record management, OCT/VFI integration, and pharmacy workflow automation",
+      "Comprehensive reporting dashboards for clinical operations and administrative analytics"
+    ],
+    stack: ["React", "Spring Boot", "PostgreSQL"],
+    hue: "b",
+    repo: "https://github.com/Ruchi-Singh4/Dr-Basu-Eye-Care-HMS",
+    live: "https://demos.ratnaglobaltech.com/",
+    image: "/src/assets/dr-basu-eye-care.svg",
+  },
+  {
+    icon: Layers,
+    title: "Ratna HealthPlex",
+    kind: "Multi-tenant healthcare platform",
+    points: [
+      "Enterprise-grade multi-tenant platform enabling secure operations across multiple clinics with unified patient records",
+      "JWT authentication, multi-factor authentication (MFA), and granular role-based access control (RBAC) for patient data protection",
+      "Telemedicine integration, EMR for nurses/physicians, lab management, pharmacy operations, and multilingual voice AI",
+      "HIPAA & DPDPA compliance for underserved community healthcare with shared staff roles and protected workflows"
+    ],
+    stack: ["React", "JWT", "MFA", "RBAC"],
+    hue: "c",
+    repo: "https://github.com/Ruchi-Singh4/Ratna-HealthPlex",
+    live: "https://ratna-healthplex.vercel.app/",
+    image: "/src/assets/ratna-healthplex.svg",
+  },
+  {
+    icon: Sparkles,
+    title: "Ratna Test AI",
+    kind: "AI-assisted testing platform",
+    points: [
+      "AI-powered automated testing platform generating, executing, and analyzing test cases from React frontend with Spring Boot backend",
+      "Reduces manual QA effort by 90%, achieves 5x faster test generation, and ensures 100% compliance coverage",
+      "24/7 autonomous testing with distributed test execution, self-healing test locators, and comprehensive audit logging",
+      "Enterprise-scale project/team management dashboards with reporting and test case review capabilities"
+    ],
+    stack: ["React", "Spring Boot", "AI integration"],
+    hue: "d",
+    repo: "https://github.com/Ruchi-Singh4/Ratna-Test-AI",
+    live: "https://ratnatest.ai/",
+    image: "/src/assets/ratna-test-ai.svg",
   },
   {
     icon: Layers,
     title: "Food Waste Management System",
     kind: "Full-stack product",
-    body: "Food inventory, donation, and waste reduction platform designed to streamline operations and improve sustainability reporting.",
+    points: [
+      "Full-stack food waste reduction and donation platform connecting surplus-food donors with NGOs for community impact",
+      "Comprehensive food inventory tracking, real-time donation management, NGO request handling, and role-based dashboards",
+      "Built with React frontend, Node.js backend, and MongoDB for scalable, efficient operations",
+      "Sustainability impact reporting that enables food banks and NGOs to streamline donation workflows and serve underserved communities"
+    ],
     stack: ["React", "Node.js", "MongoDB", "JWT"],
-    hue: "b",
+    hue: "a",
     repo: "https://github.com/Ruchi-Singh4/Food-Waste-Management",
     live: "https://food-waste-management-frontend-six.vercel.app/",
     image: "https://github.com/user-attachments/assets/77e37019-bd91-43ca-80d9-0c5396b0ca4b",
-  },
-  {
-    icon: Sparkles,
-    title: "Sorting Algorithm Visualization",
-    kind: "Frontend project",
-    body: "Interactive visualizer for sorting algorithms with a responsive UI designed to simplify learning for students and learners.",
-    stack: ["HTML", "CSS", "JavaScript"],
-    hue: "e",
-    repo: "https://github.com/Ruchi-Singh4/Sorting-Algorithm-Visualization",
-    live: "https://ruchi-singh4.github.io/Sorting-Algorithm-Visualization/",
-    image: "https://github.com/user-attachments/assets/a9e6878a-2563-4aca-b66e-a4ed8a289d3a",
-  },
-  {
-    icon: Leaf,
-    title: "Weather Project",
-    kind: "API-driven app",
-    body: "City weather dashboard that fetches live conditions and presents temperature, humidity, and wind information clearly.",
-    stack: ["HTML", "Bootstrap", "JavaScript"],
-    hue: "d",
-    repo: "https://github.com/Ruchi-Singh4/Weather-Project",
-    live: "https://ruchi-singh4.github.io/Weather-Project/",
-    image: "https://github.com/user-attachments/assets/60aae408-b91a-4986-a0dc-6f528bb87354",
   },
 ];
