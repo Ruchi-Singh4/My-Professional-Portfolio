@@ -1,5 +1,8 @@
 import { Layers, Sparkles, Stethoscope } from "lucide-react";
 import type { Project } from "@/types";
+import drBasuImage from "@/assets/dr-basu-eye-care.png";
+import healthPlexImage from "@/assets/ratna-healthplex.png";
+import testAiImage from "@/assets/ratna-test-ai.png";
 
 export const PROJECTS: Project[] = [
   {
@@ -16,7 +19,7 @@ export const PROJECTS: Project[] = [
     hue: "b",
     repo: "https://github.com/Ruchi-Singh4/Dr-Basu-Eye-Care-HMS",
     live: "https://demos.ratnaglobaltech.com/",
-    image: "/dr-basu-eye-care.svg",
+    image: drBasuImage,
   },
   {
     icon: Layers,
@@ -32,7 +35,7 @@ export const PROJECTS: Project[] = [
     hue: "c",
     repo: "https://github.com/Ruchi-Singh4/Ratna-HealthPlex",
     live: "https://ratna-healthplex.vercel.app/",
-    image: "/ratna-healthplex.svg",
+    image: healthPlexImage,
   },
   {
     icon: Sparkles,
@@ -48,7 +51,7 @@ export const PROJECTS: Project[] = [
     hue: "d",
     repo: "https://github.com/Ruchi-Singh4/Ratna-Test-AI",
     live: "https://ratnatest.ai/",
-    image: "/ratna-test-ai.svg",
+    image: testAiImage,
   },
   {
     icon: Layers,

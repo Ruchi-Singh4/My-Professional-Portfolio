@@ -12,26 +12,25 @@ export function Projects() {
         </p>
 
         <div className="projs">
-          {PROJECTS.map((project, i) => (
+          {PROJECTS.map((project, i) => {
+            const Icon = project.icon;
+            return (
               <article
                 className={`proj hue-${project.hue}`}
                 key={project.title}
                 data-rv
                 style={{ transitionDelay: `${(i % 2) * 90}ms` }}
               >
-                <div
-                  className="proj-thumb"
-                  style={
-                    project.image
-                      ? {
-                          backgroundImage: `url(${project.image})`,
-                          backgroundSize: "cover",
-                          backgroundPosition: "center",
-                        }
-                      : undefined
-                  }
-                >
-
+                <div className="proj-thumb">
+                  {project.image ? (
+                    <img
+                      src={project.image}
+                      alt={`${project.title} preview`}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  ) : null}
+                  <Icon size={40} strokeWidth={1.3} />
                   <span className="proj-kind">{project.kind}</span>
                 </div>
                 <div className="proj-body">
@@ -60,7 +59,8 @@ export function Projects() {
                   </div>
                 </div>
               </article>
-            ))}
+            );
+          })}
         </div>
       </div>
     </section>
