@@ -16,7 +16,7 @@ export const PROJECTS: Project[] = [
     hue: "b",
     repo: "https://github.com/Ruchi-Singh4/Dr-Basu-Eye-Care-HMS",
     live: "https://demos.ratnaglobaltech.com/",
-    image: "/src/assets/dr-basu-eye-care.svg",
+    image: "/dr-basu-eye-care.svg",
   },
   {
     icon: Layers,
@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
     hue: "c",
     repo: "https://github.com/Ruchi-Singh4/Ratna-HealthPlex",
     live: "https://ratna-healthplex.vercel.app/",
-    image: "/src/assets/ratna-healthplex.svg",
+    image: "/ratna-healthplex.svg",
   },
   {
     icon: Sparkles,
@@ -48,7 +48,7 @@ export const PROJECTS: Project[] = [
     hue: "d",
     repo: "https://github.com/Ruchi-Singh4/Ratna-Test-AI",
     live: "https://ratnatest.ai/",
-    image: "/src/assets/ratna-test-ai.svg",
+    image: "/ratna-test-ai.svg",
   },
   {
     icon: Layers,

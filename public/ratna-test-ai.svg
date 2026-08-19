@@ -1,0 +1,50 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#E9EBF7"/>
+  <rect width="1200" height="72" fill="#F9F9FC"/>
+  <rect x="26" y="22" width="150" height="30" rx="12" fill="#F5F6FB"/>
+  <circle cx="58" cy="36" r="12" fill="#F15A5A"/>
+  <path d="M53 36L58 31L63 36L58 41L53 36Z" fill="#FDFDFD"/>
+  <text x="80" y="43" fill="#0E2238" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">RATNA</text>
+  <text x="182" y="43" fill="#0E2238" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Test AI</text>
+  <g fill="#0D1D2D" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600">
+    <text x="400" y="42">Features</text>
+    <text x="510" y="42">Advanced</text>
+    <text x="635" y="42">Infrastructure</text>
+    <text x="780" y="42">Management</text>
+    <text x="930" y="42">Differentiators</text>
+  </g>
+  <rect x="1040" y="18" width="130" height="36" rx="18" fill="#EC4E4E"/>
+  <text x="1071" y="42" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Book A Demo</text>
+
+  <rect x="0" y="72" width="1200" height="280" fill="#D9DDF6"/>
+  <text x="600" y="170" text-anchor="middle" fill="#171E2E" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">What Makes Ratna Test AI</text>
+  <text x="600" y="234" text-anchor="middle" fill="#171E2E" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">Different?</text>
+  <text x="600" y="290" text-anchor="middle" fill="#48566D" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400">Discover why leading enterprises choose Ratna Test AI Platform over traditional testing solutions.</text>
+  <text x="600" y="322" text-anchor="middle" fill="#48566D" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400">Our unique approach combines cutting-edge AI technology with resource-efficient deployment</text>
+  <text x="600" y="354" text-anchor="middle" fill="#48566D" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400">to deliver unmatched testing capabilities.</text>
+
+  <g>
+    <rect x="480" y="395" width="150" height="52" rx="26" fill="#F45050"/>
+    <text x="555" y="428" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Start Free Trial</text>
+    <rect x="650" y="395" width="180" height="52" rx="26" fill="none" stroke="#F45B5F" stroke-width="2"/>
+    <text x="740" y="428" text-anchor="middle" fill="#F45B5F" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Explore Features</text>
+  </g>
+
+  <rect x="0" y="500" width="1200" height="220" fill="#EAEAF6"/>
+  <g transform="translate(110,540)">
+    <text x="0" y="0" fill="#E878A9" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">90%</text>
+    <text x="0" y="60" fill="#2D3B4D" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Less GPU Resources</text>
+  </g>
+  <g transform="translate(350,540)">
+    <text x="0" y="0" fill="#E878A9" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">5.0x</text>
+    <text x="0" y="60" fill="#2D3B4D" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Faster Test Generation</text>
+  </g>
+  <g transform="translate(620,540)">
+    <text x="0" y="0" fill="#E878A9" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">100%</text>
+    <text x="0" y="60" fill="#2D3B4D" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Compliance Coverage</text>
+  </g>
+  <g transform="translate(910,540)">
+    <text x="0" y="0" fill="#E878A9" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">24/7</text>
+    <text x="0" y="60" fill="#2D3B4D" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Autonomous Testing</text>
+  </g>
+</svg>
