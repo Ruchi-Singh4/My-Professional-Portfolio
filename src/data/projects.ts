@@ -7,8 +7,8 @@ import testAiImage from "@/assets/ratna-test-ai.png";
 export const PROJECTS: Project[] = [
   {
     icon: Stethoscope,
-    title: "Dr. Basu Eye Care HMS",
-    kind: "Healthcare management system",
+    title: "Dr. Basu Eye Care Platform",
+    kind: "Hospital management software",
     points: [
       "Comprehensive hospital management covering front office operations, patient appointments, billing and financial reports",
       "Built with React on Vite and Spring Boot REST APIs backed by PostgreSQL with role-based access control",

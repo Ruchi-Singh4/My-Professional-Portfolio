@@ -20,8 +20,8 @@ export function Hero() {
             <i className="caret" />
           </h2>
           <p className="lede">
-            I build hospital software — the screens front-desk staff use at 7 a.m. and the Java services behind them.
-            1.5+ years across 6 HMS modules and 2 products in production.
+            I engineer digital platforms for modern hospitals — from front-desk workflows to the Java services behind them.
+            1.5+ years across 6 healthcare modules and 2 products in production.
           </p>
 
           <div className="socials">

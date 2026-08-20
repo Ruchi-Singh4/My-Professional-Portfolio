@@ -6,7 +6,7 @@ export const TIMELINE: TimelineEntry[] = [
     what: "Software Engineer, Full Stack",
     where: "Ratna Global Technologies · Hyderabad",
     points: [
-      "Built and maintained HMS modules — Front Office, Appointments, Billing, Pharmacy, Lead Management and Reports — using Vite, Redux Toolkit, TanStack Query, React Hook Form and Tailwind CSS.",
+      "Built and maintained healthcare modules — Front Office, Appointments, Billing, Pharmacy, Lead Management and Reports — using Vite, Redux Toolkit, TanStack Query, React Hook Form and Tailwind CSS.",
       "Developed refund management for Front Office and Pharmacy: refund requests, approval workflows, receipt generation and audit history.",
       "Contributed to the Ratna HealthPlex pharmacy micro-frontend — dispensing, inventory, purchase orders, barcode scanning and prescription management within a shared pnpm monorepo.",
       "Implemented JWT authentication, MFA, role-based access control and multilingual support across 17 languages with react-i18next.",
