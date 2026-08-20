@@ -1,7 +1,7 @@
 import type { CSSProperties } from "react";
-import { Award } from "lucide-react";
+import { Award, Trophy } from "lucide-react";
 import { SKILLS, TOOLBOX } from "@/data/skills";
-import { CERTS, TIMELINE } from "@/data/timeline";
+import { CERTS, EXTRAS, TIMELINE } from "@/data/timeline";
 
 /** Lets the bar width come from a CSS custom property so the fill can animate on reveal. */
 type BarStyle = CSSProperties & { "--w": string };
@@ -65,6 +65,17 @@ export function Skills() {
                 {CERTS.map((cert) => (
                   <li key={cert}>
                     <Award size={13} /> {cert}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="tl">
+              <span className="tl-when">Campus</span>
+              <ul className="certs">
+                {EXTRAS.map((extra) => (
+                  <li key={extra}>
+                    <Trophy size={13} /> {extra}
                   </li>
                 ))}
               </ul>

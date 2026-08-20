@@ -13,9 +13,9 @@ export function About() {
           <div className="about-copy" data-rv>
             <h3>Java Full Stack Developer</h3>
             <p>
-              I'm a Software Engineer with working experience in Java full stack development — React.js, Spring Boot and
-              PostgreSQL — building secure, scalable healthcare applications and the REST APIs behind them. I joined
-              this field straight out of an engineering degree and stayed because the problems are unusually concrete. A
+              I'm a software engineer with experience in Java full stack development — React.js, Spring Boot and
+              PostgreSQL — building healthcare applications and the REST APIs behind them. I joined this field
+              straight out of an engineering degree and stayed because the problems are unusually concrete. A
               billing screen that takes four seconds to load costs a receptionist real time, every single day.
             </p>
             <p>

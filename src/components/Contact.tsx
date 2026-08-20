@@ -36,7 +36,7 @@ export function Contact() {
         <div className="contact">
           <div className="c-info" data-rv>
             <h3>Get in touch</h3>
-            <p>Send a note about the role and I'll reply the same day.</p>
+            <p>Send a note about the role and I'll get back to you.</p>
 
             <ul>
               <li>
@@ -79,7 +79,7 @@ export function Contact() {
             <button className="btn full" onClick={send}>
               <Send size={16} /> {sent ? "Opening your mail app…" : "Send message"}
             </button>
-            <p className="f-note">Uses your default email app for now. You can switch to a free service like EmailJS or Formspree later.</p>
+            <p className="f-note">Opens your email app with the message filled in.</p>
           </div>
         </div>
       </div>

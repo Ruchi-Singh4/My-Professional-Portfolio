@@ -16,14 +16,11 @@ export const ROLES: string[] = [
   "Java Full Stack Developer",
   "Spring Boot Engineer",
   "React.js Developer",
-  "Digital Solutions Engineer for Hospitals",
+  "Healthcare Software Engineer",
 ];
 
 export const STATS: Stat[] = [
-  { n: "1.5+", l: "Years in software delivery", href: "https://demos.ratnaglobaltech.com/" },
-  { n: "6", l: "Healthcare modules shipped" },
-  { n: "2", l: "Live products" },
-  { n: "17", l: "Languages localised" },
+  { n: "1.5+", l: "Years in software delivery" },
 ];
 
 export const NAV: NavItem[] = [

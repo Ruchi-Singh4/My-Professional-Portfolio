@@ -24,6 +24,9 @@ export const TIMELINE: TimelineEntry[] = [
 export const CERTS: string[] = [
   "AWS Academy Graduate — Cloud Foundations",
   "Front-End Web Development with React.js & JavaScript — DevTown",
-  "Volleyball, AKTU Zonal Sports Fest",
+];
+
+export const EXTRAS: string[] = [
+  "Participated in Volleyball, AKTU Zonal Sports Fest",
   "First place, Inter-Campus Rangoli Competition",
 ];

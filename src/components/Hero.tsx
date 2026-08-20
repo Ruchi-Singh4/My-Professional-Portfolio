@@ -20,8 +20,8 @@ export function Hero() {
             <i className="caret" />
           </h2>
           <p className="lede">
-            I engineer digital platforms for modern hospitals — from front-desk workflows to the Java services behind them.
-            1.5+ years across 6 healthcare modules and 2 products in production.
+            I build hospital software — front desk, billing, pharmacy — and the Spring Boot APIs behind it.
+            1.5+ years in software delivery.
           </p>
 
           <div className="socials">

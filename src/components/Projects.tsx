@@ -8,7 +8,7 @@ export function Projects() {
           My <span className="grad">projects</span>
         </h2>
         <p className="sec-l" data-rv>
-          Products in production, plus what I build on weekends.
+          Work from Ratna, plus a personal build.
         </p>
 
         <div className="projs">

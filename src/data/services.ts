@@ -15,6 +15,6 @@ export const SERVICES: Service[] = [
   {
     icon: ShieldCheck,
     title: "Secure, Full Stack Delivery",
-    body: "JWT auth, multi-factor authentication and role-based access control across the stack — least-privilege access to protected patient health data, end to end.",
+    body: "JWT auth, MFA and role-based access control across the stack, so staff only reach the patient data their role allows.",
   },
 ];

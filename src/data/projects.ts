@@ -10,10 +10,10 @@ export const PROJECTS: Project[] = [
     title: "Dr. Basu Eye Care Platform",
     kind: "Hospital management software",
     points: [
-      "Comprehensive hospital management covering front office operations, patient appointments, billing and financial reports",
-      "Built with React on Vite and Spring Boot REST APIs backed by PostgreSQL with role-based access control",
-      "Real-time appointment tracking, patient record management, OCT/VFI integration, and pharmacy workflow automation",
-      "Comprehensive reporting dashboards for clinical operations and administrative analytics"
+      "Hospital software for front office, appointments, billing, pharmacy and reports",
+      "React on Vite with Spring Boot REST APIs, PostgreSQL, and role-based access control",
+      "Patient records, OCT/VFI integration, and pharmacy workflows",
+      "Reporting dashboards for clinical operations and admin analytics"
     ],
     stack: ["React", "Spring Boot", "PostgreSQL"],
     hue: "b",
@@ -26,12 +26,12 @@ export const PROJECTS: Project[] = [
     title: "Ratna HealthPlex",
     kind: "Multi-tenant healthcare platform",
     points: [
-      "Enterprise-grade multi-tenant platform enabling secure operations across multiple clinics with unified patient records",
-      "JWT authentication, multi-factor authentication (MFA), and granular role-based access control (RBAC) for patient data protection",
-      "Telemedicine integration, EMR for nurses/physicians, lab management, pharmacy operations, and multilingual voice AI",
-      "HIPAA & DPDPA compliance for underserved community healthcare with shared staff roles and protected workflows"
+      "Multi-tenant platform for several clinics, with patient data kept separate per tenant",
+      "JWT authentication, MFA, and role-based access so staff only see what their role allows",
+      "Pharmacy micro-frontend in a shared pnpm monorepo — dispensing, inventory, purchase orders and prescriptions",
+      "Multilingual UI with react-i18next; access controls aligned with HIPAA and the DPDP Act"
     ],
-    stack: ["React", "JWT", "MFA", "RBAC"],
+    stack: ["React", "JWT", "i18next"],
     hue: "c",
     repo: "https://github.com/Ruchi-Singh4/Ratna-HealthPlex",
     live: "https://ratna-healthplex.vercel.app/",
@@ -42,10 +42,10 @@ export const PROJECTS: Project[] = [
     title: "Ratna Test AI",
     kind: "AI-assisted testing platform",
     points: [
-      "AI-powered automated testing platform generating, executing, and analyzing test cases from React frontend with Spring Boot backend",
-      "Reduces manual QA effort by 90%, achieves 5x faster test generation, and ensures 100% compliance coverage",
-      "24/7 autonomous testing with distributed test execution, self-healing test locators, and comprehensive audit logging",
-      "Enterprise-scale project/team management dashboards with reporting and test case review capabilities"
+      "Generates, runs and reviews test cases from a React frontend with a Spring Boot backend",
+      "Cuts repetitive manual QA and speeds up test-case writing",
+      "Distributed execution, self-healing locators, and audit logging",
+      "Project and team dashboards for reporting and test-case review"
     ],
     stack: ["React", "Spring Boot", "AI integration"],
     hue: "d",
@@ -56,12 +56,12 @@ export const PROJECTS: Project[] = [
   {
     icon: Layers,
     title: "Food Waste Management System",
-    kind: "Full-stack product",
+    kind: "Donation platform",
     points: [
-      "Full-stack food waste reduction and donation platform connecting surplus-food donors with NGOs for community impact",
-      "Comprehensive food inventory tracking, real-time donation management, NGO request handling, and role-based dashboards",
-      "Built with React frontend, Node.js backend, and MongoDB for scalable, efficient operations",
-      "Sustainability impact reporting that enables food banks and NGOs to streamline donation workflows and serve underserved communities"
+      "Connects surplus-food donors with NGOs so unused food reaches people who need it",
+      "Inventory tracking, donation requests, NGO handling, and role-based dashboards",
+      "React frontend, Node.js backend, and MongoDB",
+      "Impact reporting so food banks can follow what was donated and where it went"
     ],
     stack: ["React", "Node.js", "MongoDB", "JWT"],
     hue: "a",

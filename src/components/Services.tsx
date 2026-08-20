@@ -8,7 +8,7 @@ export function Services() {
           What I <span className="grad">do</span>
         </h2>
         <p className="sec-l" data-rv>
-          Three things I've been paid to do well.
+          The work I do day to day.
         </p>
 
         <div className="cards">
