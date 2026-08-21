@@ -8,7 +8,7 @@ export function Services() {
           What I <span className="grad">do</span>
         </h2>
         <p className="sec-l" data-rv>
-          The work I do day to day.
+          Frontend, backend, and the auth in between.
         </p>
 
         <div className="cards">
@@ -17,7 +17,7 @@ export function Services() {
             return (
               <article className="card" key={service.title} data-rv style={{ transitionDelay: `${i * 90}ms` }}>
                 <div className="card-ic">
-                  <Icon size={22} strokeWidth={1.8} />
+                  <Icon size={24} strokeWidth={1.7} />
                 </div>
                 <h3>{service.title}</h3>
                 <p>{service.body}</p>

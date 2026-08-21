@@ -2,15 +2,23 @@ import type { TimelineEntry } from "@/types";
 
 export const TIMELINE: TimelineEntry[] = [
   {
-    when: "Mar 2025 — Present",
-    what: "Software Engineer, Full Stack",
-    where: "Ratna Global Technologies · Hyderabad",
+    when: "Apr 2025 — Present",
+    what: "Software Engineer",
+    where: "Ratna Global Tech · Hyderabad",
     points: [
-      "Built and maintained healthcare modules — Front Office, Appointments, Billing, Pharmacy, Lead Management and Reports — using Vite, Redux Toolkit, TanStack Query, React Hook Form and Tailwind CSS.",
-      "Developed refund management for Front Office and Pharmacy: refund requests, approval workflows, receipt generation and audit history.",
-      "Contributed to the Ratna HealthPlex pharmacy micro-frontend — dispensing, inventory, purchase orders, barcode scanning and prescription management within a shared pnpm monorepo.",
-      "Implemented JWT authentication, MFA, role-based access control and multilingual support across 17 languages with react-i18next.",
-      "Developed and enhanced Spring Boot REST APIs, optimised SQL queries, and built reusable components to improve performance and maintainability.",
+      "Production healthcare apps with Java, Spring Boot, React.js, PostgreSQL and REST APIs",
+      "Front Office, Appointments, Billing, Pharmacy, Lead Management, Reports and refunds",
+      "Pharmacy micro-frontend in a pnpm monorepo — dispensing, inventory, purchase orders",
+      "JWT, MFA, role-based access, and 17-language support with react-i18next",
+    ],
+  },
+  {
+    when: "Aug 2024 — Mar 2025",
+    what: "Full Stack Java Developer Trainee",
+    where: "JSpiders · Bengaluru",
+    points: [
+      "End-to-end apps with Java (JDBC, Servlets) and React, plus SQL, HTML, CSS and JavaScript",
+      "Git and GitHub for version control, reviews and team workflows",
     ],
   },
   {

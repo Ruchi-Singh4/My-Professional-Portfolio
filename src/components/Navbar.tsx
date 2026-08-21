@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Briefcase } from "lucide-react";
 import { ME, NAV } from "@/data/profile";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { useScrolled } from "@/hooks/useScrolled";
@@ -27,6 +28,10 @@ export function Navbar() {
             </a>
           ))}
         </nav>
+
+        <a className="nav-cta" href="#contact" onClick={scrollTo("contact")}>
+          <Briefcase size={14} /> Hire me
+        </a>
 
         <button
           className="burger"

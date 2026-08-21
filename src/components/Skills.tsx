@@ -1,86 +1,47 @@
-import type { CSSProperties } from "react";
-import { Award, Trophy } from "lucide-react";
-import { SKILLS, TOOLBOX } from "@/data/skills";
-import { CERTS, EXTRAS, TIMELINE } from "@/data/timeline";
+import { Sparkles } from "lucide-react";
+import { STACK } from "@/data/stack";
 
-/** Lets the bar width come from a CSS custom property so the fill can animate on reveal. */
-type BarStyle = CSSProperties & { "--w": string };
+function iconSrc(slug: string, color: string): string {
+  return `https://cdn.simpleicons.org/${slug}/${color}`;
+}
 
 export function Skills() {
   return (
     <section className="sec" id="skills">
       <div className="wrap">
-        <h2 className="sec-t" data-rv>
-          My <span className="grad">skills</span>
+        <p className="stack-kicker" data-pop>
+          <Sparkles size={14} /> My stack
+        </p>
+        <h2 className="sec-t stack-title" data-pop>
+          What I <span className="grad">use</span>
         </h2>
-        <p className="sec-l" data-rv>
-          What I reach for day to day.
+        <p className="sec-l" data-pop>
+          React, Spring Boot, SQL, and the tools around them.
         </p>
 
-        <div className="skills-grid">
-          <div className="bars" data-rv>
-            {SKILLS.map((skill, i) => (
-              <div className="bar-row" key={skill.name}>
-                <div className="bar-top">
-                  <span>{skill.name}</span>
-                  <span className="pct">{skill.pct}%</span>
-                </div>
-                <div className="track">
-                  <i
-                    className="fill"
-                    style={{ "--w": `${skill.pct}%`, transitionDelay: `${i * 90}ms` } as BarStyle}
-                  />
-                </div>
-              </div>
-            ))}
-
-            <div className="toolbox">
-              <h4>Also working with</h4>
-              <ul>
-                {TOOLBOX.map((tool) => (
-                  <li key={tool}>{tool}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          <div className="time" data-rv>
-            {TIMELINE.map((entry) => (
-              <div className="tl" key={entry.what}>
-                <span className="tl-when">{entry.when}</span>
-                <h3>{entry.what}</h3>
-                <p className="tl-where">{entry.where}</p>
-                <ul>
-                  {entry.points.map((point) => (
-                    <li key={point}>{point}</li>
-                  ))}
-                </ul>
-
-              </div>
-            ))}
-
-            <div className="tl">
-              <span className="tl-when">Certifications</span>
-              <ul className="certs">
-                {CERTS.map((cert) => (
-                  <li key={cert}>
-                    <Award size={13} /> {cert}
+        <div className="stack">
+          {STACK.map((group) => (
+            <div className="stack-row" key={group.title}>
+              <h3 className="stack-cat" data-pop>
+                {group.title}
+              </h3>
+              <ul className="stack-list">
+                {group.items.map((item, i) => (
+                  <li
+                    className="stack-item"
+                    key={item.name}
+                    data-pop
+                    style={{ transitionDelay: `${i * 50}ms` }}
+                  >
+                    <span className="stack-ico" style={{ "--ico": `#${item.color}` } as never}>
+                      <img src={iconSrc(item.slug, item.color)} alt="" width={28} height={28} />
+                    </span>
+                    <span>{item.name}</span>
                   </li>
                 ))}
               </ul>
             </div>
-
-            <div className="tl">
-              <span className="tl-when">Campus</span>
-              <ul className="certs">
-                {EXTRAS.map((extra) => (
-                  <li key={extra}>
-                    <Trophy size={13} /> {extra}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

@@ -10,10 +10,9 @@ export const PROJECTS: Project[] = [
     title: "Dr. Basu Eye Care Platform",
     kind: "Hospital management software",
     points: [
-      "Hospital software for front office, appointments, billing, pharmacy and reports",
-      "React on Vite with Spring Boot REST APIs, PostgreSQL, and role-based access control",
-      "Patient records, OCT/VFI integration, and pharmacy workflows",
-      "Reporting dashboards for clinical operations and admin analytics"
+      "Hospital system for front office, appointments, billing, and pharmacy",
+      "React and Spring Boot, with roles so staff only open what they should",
+      "Patient records, OCT/VFI scans, and the reports the clinic runs daily",
     ],
     stack: ["React", "Spring Boot", "PostgreSQL"],
     hue: "b",
@@ -26,10 +25,9 @@ export const PROJECTS: Project[] = [
     title: "Ratna HealthPlex",
     kind: "Multi-tenant healthcare platform",
     points: [
-      "Multi-tenant platform for several clinics, with patient data kept separate per tenant",
-      "JWT authentication, MFA, and role-based access so staff only see what their role allows",
-      "Pharmacy micro-frontend in a shared pnpm monorepo — dispensing, inventory, purchase orders and prescriptions",
-      "Multilingual UI with react-i18next; access controls aligned with HIPAA and the DPDP Act"
+      "One product for multiple clinics, with each clinic’s data kept separate",
+      "JWT, MFA, and roles; the UI is available in 17 languages",
+      "I built the pharmacy micro-frontend: dispense, stock, and purchase orders",
     ],
     stack: ["React", "JWT", "i18next"],
     hue: "c",
@@ -42,12 +40,11 @@ export const PROJECTS: Project[] = [
     title: "Ratna Test AI",
     kind: "AI-assisted testing platform",
     points: [
-      "Generates, runs and reviews test cases from a React frontend with a Spring Boot backend",
-      "Cuts repetitive manual QA and speeds up test-case writing",
-      "Distributed execution, self-healing locators, and audit logging",
-      "Project and team dashboards for reporting and test-case review"
+      "Helps QA generate and run test cases instead of repeating the same clicks",
+      "React front end talking to a Spring Boot service",
+      "Dashboard for what passed, what failed, and what still needs a look",
     ],
-    stack: ["React", "Spring Boot", "AI integration"],
+    stack: ["React", "Spring Boot", "Java"],
     hue: "d",
     repo: "https://github.com/Ruchi-Singh4/Ratna-Test-AI",
     live: "https://ratnatest.ai/",
@@ -58,12 +55,11 @@ export const PROJECTS: Project[] = [
     title: "Food Waste Management System",
     kind: "Donation platform",
     points: [
-      "Connects surplus-food donors with NGOs so unused food reaches people who need it",
-      "Inventory tracking, donation requests, NGO handling, and role-based dashboards",
-      "React frontend, Node.js backend, and MongoDB",
-      "Impact reporting so food banks can follow what was donated and where it went"
+      "Connects leftover kitchen food with NGOs that can collect it",
+      "Separate dashboards for donors and NGOs — React, Node.js, MongoDB",
+      "Tracks inventory and donation requests",
     ],
-    stack: ["React", "Node.js", "MongoDB", "JWT"],
+    stack: ["React", "Node.js", "MongoDB"],
     hue: "a",
     repo: "https://github.com/Ruchi-Singh4/Food-Waste-Management",
     live: "https://food-waste-management-frontend-six.vercel.app/",

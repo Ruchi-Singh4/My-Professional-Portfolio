@@ -1,4 +1,4 @@
-import { Code2, Database, Download, Github, Linkedin, Mail, Server } from "lucide-react";
+import { Briefcase, Code2, Database, FileDown, Github, Linkedin, Mail, Server } from "lucide-react";
 import { ME, ROLES } from "@/data/profile";
 import { useTyping } from "@/hooks/useTyping";
 import { useSmoothScroll } from "@/hooks/useSmoothScroll";
@@ -11,18 +11,21 @@ export function Hero() {
     <section className="hero" id="home">
       <div className="wrap hero-in">
         <div className="hero-copy">
-          <p className="hi">Hello, my name is</p>
+          <p className="hi">Hi, I’m</p>
           <h1 className="big">
             {ME.first} <span className="grad">{ME.last}</span>
           </h1>
           <h2 className="typed">
-            And I'm a <span>{typed}</span>
+            I’m a <span>{typed}</span>
             <i className="caret" />
           </h2>
           <p className="lede">
-            I build hospital software — front desk, billing, pharmacy — and the Spring Boot APIs behind it.
-            1.5+ years in software delivery.
+            I’m a full-stack developer working with React, Spring Boot, and PostgreSQL, building everything from
+            robust APIs and database systems to responsive, user-friendly interfaces.
           </p>
+          <div className="avail-wrap">
+            <p className="avail">Open to Java full-stack roles · Hyderabad or remote</p>
+          </div>
 
           <div className="socials">
             <a href={ME.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
@@ -38,10 +41,10 @@ export function Hero() {
 
           <div className="btns">
             <a className="btn" href="#contact" onClick={scrollTo("contact")}>
-              Hire me
+              <Briefcase size={16} /> Hire me
             </a>
             <a className="btn out" href={ME.resume} download>
-              <Download size={16} /> Download CV
+              <FileDown size={16} /> Download CV
             </a>
           </div>
         </div>

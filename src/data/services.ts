@@ -1,20 +1,20 @@
-import { Code2, Server, ShieldCheck } from "lucide-react";
+import { Database, LayoutDashboard, LockKeyhole } from "lucide-react";
 import type { Service } from "@/types";
 
 export const SERVICES: Service[] = [
   {
-    icon: Server,
-    title: "Backend Development",
-    body: "REST APIs in Spring Boot backed by PostgreSQL — consistent validation, exception handling and pagination, with slow queries tuned through indexing and join optimisation.",
+    icon: Database,
+    title: "Spring Boot APIs",
+    body: "REST services on PostgreSQL — validation, pagination, and SQL that holds up when traffic is real.",
   },
   {
-    icon: Code2,
-    title: "Frontend Development",
-    body: "Production React interfaces with Redux Toolkit, TanStack Query and React Hook Form, built on a shared component library so every module looks and behaves the same.",
+    icon: LayoutDashboard,
+    title: "React screens",
+    body: "Interfaces with Vite, Redux Toolkit, TanStack Query, and React Hook Form. Same patterns across modules, so it feels like one product.",
   },
   {
-    icon: ShieldCheck,
-    title: "Secure, Full Stack Delivery",
-    body: "JWT auth, MFA and role-based access control across the stack, so staff only reach the patient data their role allows.",
+    icon: LockKeyhole,
+    title: "Login and roles",
+    body: "JWT, MFA, and role-based access so people only see what their role is allowed to see.",
   },
 ];

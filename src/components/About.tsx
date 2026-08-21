@@ -1,4 +1,4 @@
-import { Download, GraduationCap, MapPin, Sparkles } from "lucide-react";
+import { FileDown, GraduationCap, MapPin, Sparkles } from "lucide-react";
 import { ME } from "@/data/profile";
 
 export function About() {
@@ -13,15 +13,13 @@ export function About() {
           <div className="about-copy" data-rv>
             <h3>Java Full Stack Developer</h3>
             <p>
-              I'm a software engineer with experience in Java full stack development — React.js, Spring Boot and
-              PostgreSQL — building healthcare applications and the REST APIs behind them. I joined this field
-              straight out of an engineering degree and stayed because the problems are unusually concrete. A
-              billing screen that takes four seconds to load costs a receptionist real time, every single day.
+              I’m a Java full-stack developer in Hyderabad. I build web apps with React, Spring Boot, and PostgreSQL
+              — the API, the database, and the UI. Right now that’s at Ratna Global Tech, after a Java training year
+              at JSpiders.
             </p>
             <p>
-              My work spans the whole delivery cycle: PostgreSQL schema design, Spring Boot APIs, then the React
-              interface on top. I like the seam where the two meet — pagination contracts, error shapes, and making a
-              slow query fast enough that nobody notices it ran.
+              A normal day is a screen, an endpoint, and a query. I spend time on the unglamorous bits: validation,
+              roles, pagination, and making sure errors make sense.
             </p>
 
             <ul className="facts">
@@ -36,9 +34,11 @@ export function About() {
               </li>
             </ul>
 
-            <a className="btn" href={ME.resume} download>
-              <Download size={16} /> Download CV
-            </a>
+            <div className="about-cta">
+              <a className="btn" href={ME.resume} download>
+                <FileDown size={16} /> Download CV
+              </a>
+            </div>
           </div>
         </div>
       </div>

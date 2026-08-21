@@ -30,13 +30,13 @@ export function Contact() {
           Contact <span className="grad">me</span>
         </h2>
         <p className="sec-l" data-rv>
-          Open to Java and full stack roles — Hyderabad or remote.
+          Open to Java full-stack roles in Hyderabad or remote. Email is fastest.
         </p>
 
         <div className="contact">
           <div className="c-info" data-rv>
             <h3>Get in touch</h3>
-            <p>Send a note about the role and I'll get back to you.</p>
+            <p>Tell me about the role, the stack, and when you need someone.</p>
 
             <ul>
               <li>

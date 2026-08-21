@@ -1,3 +1,4 @@
+import { ExternalLink, Github } from "lucide-react";
 import { PROJECTS } from "@/data/projects";
 
 export function Projects() {
@@ -8,12 +9,11 @@ export function Projects() {
           My <span className="grad">projects</span>
         </h2>
         <p className="sec-l" data-rv>
-          Work from Ratna, plus a personal build.
+          Full-stack apps I can walk through — from work and on my own.
         </p>
 
         <div className="projs">
           {PROJECTS.map((project, i) => {
-            const Icon = project.icon;
             return (
               <article
                 className={`proj hue-${project.hue}`}
@@ -30,7 +30,6 @@ export function Projects() {
                       decoding="async"
                     />
                   ) : null}
-                  <Icon size={40} strokeWidth={1.3} />
                   <span className="proj-kind">{project.kind}</span>
                 </div>
                 <div className="proj-body">
@@ -46,16 +45,20 @@ export function Projects() {
                     ))}
                   </ul>
                   <div className="proj-links">
-                    {project.title === "Food Waste Management System" && project.repo ? (
-                      <a href={project.repo} target="_blank" rel="noreferrer">
-                        GitHub
+                    {project.repo ? (
+                      <a className="proj-git" href={project.repo} target="_blank" rel="noreferrer">
+                        <Github size={15} /> GitHub
                       </a>
-                    ) : null}
+                    ) : (
+                      <span className="proj-link-slot" aria-hidden="true" />
+                    )}
                     {project.live ? (
-                      <a href={project.live} target="_blank" rel="noreferrer">
-                        Live link
+                      <a className="proj-live" href={project.live} target="_blank" rel="noreferrer">
+                        <ExternalLink size={15} /> Live
                       </a>
-                    ) : null}
+                    ) : (
+                      <span className="proj-link-slot" aria-hidden="true" />
+                    )}
                   </div>
                 </div>
               </article>

@@ -14,13 +14,15 @@ export const ME: Profile = {
 
 export const ROLES: string[] = [
   "Java Full Stack Developer",
-  "Spring Boot Engineer",
+  "Spring Boot Developer",
   "React.js Developer",
-  "Healthcare Software Engineer",
 ];
 
 export const STATS: Stat[] = [
-  { n: "1.5+", l: "Years in software delivery" },
+  { n: "1.5+", l: "Years experience" },
+  { n: "React", l: "Vite, Redux, TanStack Query" },
+  { n: "Java", l: "Spring Boot REST APIs" },
+  { n: "SQL", l: "PostgreSQL and MySQL" },
 ];
 
 export const NAV: NavItem[] = [
@@ -28,6 +30,8 @@ export const NAV: NavItem[] = [
   ["about", "About"],
   ["services", "What I do"],
   ["skills", "Skills"],
+  ["experience", "Experience"],
+  ["education", "Education"],
   ["projects", "Projects"],
   ["contact", "Contact"],
 ];
